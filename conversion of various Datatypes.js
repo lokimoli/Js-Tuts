@@ -15,8 +15,20 @@
 // let booleanIsLoggedIn = Boolean(isLoggedIn)
 // console.log(booleanIsLoggedIn)
 
-let isLoggedIn = 8646235859832
+// let isLoggedIn = 8646235859832
 
-let BooleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(BooleanIsLoggedIn);
+// let BooleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(BooleanIsLoggedIn); 
+
+// "" = false 
+// "shaurya" = true 
+
+let someNumber = 53634
+
+let StringSomeNumber = String(someNumber)
+
+console.log(StringSomeNumber);
+console.log(typeof "someNumber");
+
+
 
