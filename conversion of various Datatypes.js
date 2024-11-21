@@ -29,6 +29,3 @@ let StringSomeNumber = String(someNumber)
 
 console.log(StringSomeNumber);
 console.log(typeof "someNumber");
-
-
-
