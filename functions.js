@@ -56,6 +56,7 @@
  function average(a,b,c){
    let d = (a+b+c)/3
    return d;
+   // Anything written after return is printed 
  }
 
  let avg = average(10,20,30);
