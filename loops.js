@@ -21,8 +21,23 @@
 
 // Do while Loops
 
-let n = prompt ("Enter the value of n ")
+let n = prompt ("Enter the value of n ", "0")  
+// output gives 0 in the space for number
 n = Number.parseInt(n)
+
+let deletePost = confirm("Do you really want to delete this post?")
+
+if(deletePost){
+    console.log("Your post has been deleted successfully");
+    
+}
+
+else{
+    console.log("Your post has not been deleted");
+    
+}
+console.log(deletePost);
+
 
 let i = 0
 do{
