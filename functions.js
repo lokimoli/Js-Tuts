@@ -61,4 +61,26 @@
 
  let avg = average(10,20,30);
  console.log(avg);
- 
+
+ let i = 0;
+ while (i<10) {
+      console.log(`${i} is less than 10`);
+      i++;
+ }
+
+ let names = ["Array" , "objects" , "Sam" , "Jeet" , "Ashwani" , "Kalpit"];
+
+ for(element of names){
+  console.log(" Hello BSDK " + element + " to Javascript ");
+  
+ }
+
+ let object = {
+   identity:  "Shaurya",
+   location: "Thatipur",
+   DOB:"November" 
+ }
+
+ for (const key in object) {
+    console.log(`The wanted info that is ${key} is $[object{key}]`); 
+  }
