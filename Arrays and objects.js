@@ -14,7 +14,7 @@ console.log((employee));
 
 // Arrays - objects
 let names = [1 , 2 , 3 , 4 ,"Shaurya" , undefined]
-console.log(name);
+console.log(names);
 // can aslo write the value in [] bordered by 9 
 //  eg : console.log(name[0])  output = 1
 
